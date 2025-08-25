@@ -1,0 +1,9 @@
+xpm_cdc.sv,systemverilog,xpm,F:/Xilinx/2025.1/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv,incdir="F:/Xilinx/2025.1/Vivado/data/rsb/busdef"
+xpm_VCOMP.vhd,vhdl,xpm,F:/Xilinx/2025.1/Vivado/data/ip/xpm/xpm_VCOMP.vhd,incdir="F:/Xilinx/2025.1/Vivado/data/rsb/busdef"
+Baud_Gen.v,verilog,xil_defaultlib,../../../../../Basic UART.srcs/sources_1/new/Baud_Gen.v,incdir="F:/Xilinx/2025.1/Vivado/data/rsb/busdef"
+Baud_Gen_RX.v,verilog,xil_defaultlib,../../../../../Basic UART.srcs/sources_1/new/Baud_Gen_RX.v,incdir="F:/Xilinx/2025.1/Vivado/data/rsb/busdef"
+RX_UART.v,verilog,xil_defaultlib,../../../../../Basic UART.srcs/sources_1/new/RX_UART.v,incdir="F:/Xilinx/2025.1/Vivado/data/rsb/busdef"
+TOP.v,verilog,xil_defaultlib,../../../../../Basic UART.srcs/sources_1/new/TOP.v,incdir="F:/Xilinx/2025.1/Vivado/data/rsb/busdef"
+UART.v,verilog,xil_defaultlib,../../../../../Basic UART.srcs/sources_1/new/UART.v,incdir="F:/Xilinx/2025.1/Vivado/data/rsb/busdef"
+tb.v,verilog,xil_defaultlib,../../../../../Basic UART.srcs/sim_1/new/tb.v,incdir="F:/Xilinx/2025.1/Vivado/data/rsb/busdef"
+glbl.v,Verilog,xil_defaultlib,glbl.v

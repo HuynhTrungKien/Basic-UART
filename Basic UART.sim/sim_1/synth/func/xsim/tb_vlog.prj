@@ -1,0 +1,6 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "F:/Xilinx/2025.1/Vivado/data/rsb/busdef" --include "../../../../../SoC_UART_SPI_I2C.ip_user_files/ipstatic" \
+"../../../../../SoC_UART_SPI_I2C.srcs/sim_1/new/tb.v" \
+
+# Do not sort compile order
+nosort

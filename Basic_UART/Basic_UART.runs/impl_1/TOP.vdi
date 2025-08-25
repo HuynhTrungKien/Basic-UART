@@ -1,0 +1,364 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Sun Aug 24 20:33:13 2025
+# Process ID         : 15912
+# Current directory  : D:/Vivado_project/SoC_UART_SPI_I2C/SoC_UART_SPI_I2C.runs/impl_1
+# Command line       : vivado.exe -log TOP.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source TOP.tcl -notrace
+# Log file           : D:/Vivado_project/SoC_UART_SPI_I2C/SoC_UART_SPI_I2C.runs/impl_1/TOP.vdi
+# Journal file       : D:/Vivado_project/SoC_UART_SPI_I2C/SoC_UART_SPI_I2C.runs/impl_1\vivado.jou
+# Running On         : KIENHUYNH
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : AMD Ryzen 7 6800H with Radeon Graphics         
+# CPU Frequency      : 3194 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 16387 MB
+# Swap memory        : 11274 MB
+# Total Virtual      : 27662 MB
+# Available Virtual  : 10287 MB
+#-----------------------------------------------------------
+source TOP.tcl -notrace
+create_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 497.832 ; gain = 213.773
+Command: link_design -top TOP -part xc7z010clg400-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-5699] Read binary netlist with skipMacroContent - 1
+INFO: [Project 1-454] Reading design checkpoint 'd:/Vivado_project/SoC_UART_SPI_I2C/SoC_UART_SPI_I2C.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'ic0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Vivado_project/SoC_UART_SPI_I2C/SoC_UART_SPI_I2C.gen/sources_1/ip/ila_0/ila_0.dcp' for cell 'ic4'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 762.852 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 129 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2025.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Chipscope 16-324] Core: ic4 UUID: 7926ff3a-7350-54da-ad4e-74b952d07633 
+Parsing XDC File [d:/Vivado_project/SoC_UART_SPI_I2C/SoC_UART_SPI_I2C.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'ic0/inst'
+Finished Parsing XDC File [d:/Vivado_project/SoC_UART_SPI_I2C/SoC_UART_SPI_I2C.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'ic0/inst'
+Parsing XDC File [d:/Vivado_project/SoC_UART_SPI_I2C/SoC_UART_SPI_I2C.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'ic0/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [d:/Vivado_project/SoC_UART_SPI_I2C/SoC_UART_SPI_I2C.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:54]
+INFO: [Timing 38-2] Deriving generated clocks [d:/Vivado_project/SoC_UART_SPI_I2C/SoC_UART_SPI_I2C.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:54]
+get_clocks: Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1477.242 ; gain = 568.324
+Finished Parsing XDC File [d:/Vivado_project/SoC_UART_SPI_I2C/SoC_UART_SPI_I2C.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'ic0/inst'
+Parsing XDC File [d:/Vivado_project/SoC_UART_SPI_I2C/SoC_UART_SPI_I2C.gen/sources_1/ip/ila_0/ila_v6_2/constraints/ila_impl.xdc] for cell 'ic4/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [d:/Vivado_project/SoC_UART_SPI_I2C/SoC_UART_SPI_I2C.gen/sources_1/ip/ila_0/ila_v6_2/constraints/ila_impl.xdc:31]
+Finished Parsing XDC File [d:/Vivado_project/SoC_UART_SPI_I2C/SoC_UART_SPI_I2C.gen/sources_1/ip/ila_0/ila_v6_2/constraints/ila_impl.xdc] for cell 'ic4/inst'
+Parsing XDC File [d:/Vivado_project/SoC_UART_SPI_I2C/SoC_UART_SPI_I2C.gen/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc] for cell 'ic4/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [d:/Vivado_project/SoC_UART_SPI_I2C/SoC_UART_SPI_I2C.gen/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc:108]
+Finished Parsing XDC File [d:/Vivado_project/SoC_UART_SPI_I2C/SoC_UART_SPI_I2C.gen/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc] for cell 'ic4/inst'
+Parsing XDC File [D:/Vivado_project/Constraint_basys3/EBAZ4205_Master.xdc]
+Finished Parsing XDC File [D:/Vivado_project/Constraint_basys3/EBAZ4205_Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-1687] 2 scoped IP constraints or related sub-commands were skipped due to synthesis logic optimizations usually triggered by constant connectivity or unconnected output pins. To review the skipped constraints and messages, run the command 'set_param netlist.IPMsgFiltering false' before opening the design.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1477.242 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 36 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 36 instances
+
+14 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1477.242 ; gain = 943.887
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1477.242 ; gain = 0.000
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-2] Deriving generated clocks
+Ending Cache Timing Information Task | Checksum: 1e197231b
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.128 . Memory (MB): peak = 1510.238 ; gain = 32.996
+
+Starting Logic Optimization Task
+
+Phase 1 Initialization
+
+Phase 1.1 Core Generation And Design Setup
+
+Phase 1.1.1 Generate And Synthesize Debug Cores
+INFO: [Chipscope 16-329] Generating Script for core instance : dbg_hub 
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:xsdbm:3.0 for cell dbg_hub_CV.
+INFO: [Chipscope 16-469] Using cached IP synthesis design for IP xilinx.com:ip:xsdbm:3.0, cache-ID = d29c57f077e743cc.
+Done building netlist checker database: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1955.594 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 1955.594 ; gain = 0.000
+Phase 1.1.1 Generate And Synthesize Debug Cores | Checksum: 1f734bfe7
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:26 . Memory (MB): peak = 1955.594 ; gain = 22.297
+Phase 1.1 Core Generation And Design Setup | Checksum: 1f734bfe7
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:26 . Memory (MB): peak = 1955.594 ; gain = 22.297
+
+Phase 1.2 Setup Constraints And Sort Netlist
+Phase 1.2 Setup Constraints And Sort Netlist | Checksum: 1f734bfe7
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:26 . Memory (MB): peak = 1955.594 ; gain = 22.297
+Phase 1 Initialization | Checksum: 1f734bfe7
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:26 . Memory (MB): peak = 1955.594 ; gain = 22.297
+
+Phase 2 Timer Update And Timing Data Collection
+
+Phase 2.1 Timer Update
+Phase 2.1 Timer Update | Checksum: 1f734bfe7
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:26 . Memory (MB): peak = 1955.594 ; gain = 22.297
+
+Phase 2.2 Timing Data Collection
+Phase 2.2 Timing Data Collection | Checksum: 1f734bfe7
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:26 . Memory (MB): peak = 1955.594 ; gain = 22.297
+Phase 2 Timer Update And Timing Data Collection | Checksum: 1f734bfe7
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:26 . Memory (MB): peak = 1955.594 ; gain = 22.297
+
+Phase 3 Retarget
+INFO: [Opt 31-1851] Number of loadless carry chains removed were: 0
+INFO: [Opt 31-1834] Total Chains To Be Transformed Were: 0 AND Number of Transformed insts Created are: 0
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 1 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 3 Retarget | Checksum: 319062492
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:26 . Memory (MB): peak = 1955.594 ; gain = 22.297
+Retarget | Checksum: 319062492
+INFO: [Opt 31-389] Phase Retarget created 6 cells and removed 13 cells
+INFO: [Opt 31-1021] In phase Retarget, 68 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 4 Constant propagation | Checksum: 272599695
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:26 . Memory (MB): peak = 1955.594 ; gain = 22.297
+Constant propagation | Checksum: 272599695
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 16 cells
+INFO: [Opt 31-1021] In phase Constant propagation, 48 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 5 Sweep
+INFO: [Constraints 18-11670] Building netlist checker database with flags, 0x8
+Done building netlist checker database: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1955.594 ; gain = 0.000
+INFO: [Constraints 18-11670] Building netlist checker database with flags, 0x8
+Done building netlist checker database: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1955.594 ; gain = 0.000
+Phase 5 Sweep | Checksum: 30e23c3c8
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:26 . Memory (MB): peak = 1955.594 ; gain = 22.297
+Sweep | Checksum: 30e23c3c8
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 75 cells
+INFO: [Opt 31-1021] In phase Sweep, 859 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 6 BUFG optimization
+INFO: [Opt 31-194] Inserted BUFG ic1/baud_clk_BUFG_inst to drive 45 load(s) on clock net ic1/baud_clk_BUFG
+INFO: [Opt 31-193] Inserted 1 BUFG(s) on clock nets
+Phase 6 BUFG optimization | Checksum: 29b7df6b4
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:26 . Memory (MB): peak = 1955.594 ; gain = 22.297
+BUFG optimization | Checksum: 29b7df6b4
+INFO: [Opt 31-662] Phase BUFG optimization created 1 cells of which 1 are BUFGs and removed 0 cells.
+
+Phase 7 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 7 Shift Register Optimization | Checksum: 29b7df6b4
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:27 . Memory (MB): peak = 1955.594 ; gain = 22.297
+Shift Register Optimization | Checksum: 29b7df6b4
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 8 Post Processing Netlist
+Phase 8 Post Processing Netlist | Checksum: 29b7df6b4
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:27 . Memory (MB): peak = 1955.594 ; gain = 22.297
+Post Processing Netlist | Checksum: 29b7df6b4
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Post Processing Netlist, 58 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 9 Finalization
+
+Phase 9.1 Finalizing Design Cores and Updating Shapes
+Phase 9.1 Finalizing Design Cores and Updating Shapes | Checksum: 18689b0de
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:27 . Memory (MB): peak = 1955.594 ; gain = 22.297
+
+Phase 9.2 Verifying Netlist Connectivity
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 1955.594 ; gain = 0.000
+Phase 9.2 Verifying Netlist Connectivity | Checksum: 18689b0de
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:27 . Memory (MB): peak = 1955.594 ; gain = 22.297
+Phase 9 Finalization | Checksum: 18689b0de
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:27 . Memory (MB): peak = 1955.594 ; gain = 22.297
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               6  |              13  |                                             68  |
+|  Constant propagation         |               0  |              16  |                                             48  |
+|  Sweep                        |               0  |              75  |                                            859  |
+|  BUFG optimization            |               1  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                             58  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Ending Logic Optimization Task | Checksum: 18689b0de
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:27 . Memory (MB): peak = 1955.594 ; gain = 22.297
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 1 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 1 newly gated: 0 Total Ports: 2
+Ending PowerOpt Patch Enables Task | Checksum: 18a7ef67e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 2021.305 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 18a7ef67e
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 2021.305 ; gain = 65.711
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 18a7ef67e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2021.305 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 2021.305 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 1ea8d6da8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 2021.305 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+54 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:35 . Memory (MB): peak = 2021.305 ; gain = 544.062
+INFO: [Vivado 12-24828] Executing command : report_drc -file TOP_drc_opted.rpt -pb TOP_drc_opted.pb -rpx TOP_drc_opted.rpx
+Command: report_drc -file TOP_drc_opted.rpt -pb TOP_drc_opted.pb -rpx TOP_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file D:/Vivado_project/SoC_UART_SPI_I2C/SoC_UART_SPI_I2C.runs/impl_1/TOP_drc_opted.rpt.
+report_drc completed successfully
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Wrote PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2021.305 ; gain = 0.000
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2021.305 ; gain = 0.000
+Writing XDEF routing.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 2021.305 ; gain = 0.000
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.049 . Memory (MB): peak = 2021.305 ; gain = 0.000
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2021.305 ; gain = 0.000
+Wrote Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 2021.305 ; gain = 0.000
+Write Physdb Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.078 . Memory (MB): peak = 2021.305 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/Vivado_project/SoC_UART_SPI_I2C/SoC_UART_SPI_I2C.runs/impl_1/TOP_opt.dcp' has been generated.
+INFO: [Chipscope 16-240] Debug cores have already been implemented
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-83] Releasing license: Implementation
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Starting Placer Task
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 2021.305 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 16abe493e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 2021.305 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.004 . Memory (MB): peak = 2021.305 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+ERROR: [Place 30-58] IO placement is infeasible. Number of unplaced IO Ports (9) is greater than number of available pins (0).
+The following are banks with available pins: 
+ IO Group: 0 with : SioStd: LVCMOS18   VCCO = 1.8 Termination: 0  TermDir:  Out  RangeId: 1 Drv: 12  has only 0 sites available on device, but needs 9 sites.
+	Term: data_out[0]
+	Term: data_out[1]
+	Term: data_out[2]
+	Term: data_out[3]
+	Term: data_out[4]
+	Term: data_out[5]
+	Term: data_out[6]
+	Term: data_out[7]
+	Term: d_ready
+
+
+Resolution: Consider using Xilinx part with greater number of IO pins
+ERROR: [Place 30-374] IO placer failed to find a solution
+Below is the partial placement that can be analyzed to see if any constraint modifications will make the IO placement problem easier to solve.
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                     IO Placement : Bank Stats                                                                           |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+| Id | Pins  | Terms |                               Standards                                |                IDelayCtrls               |  VREF  |  VCCO  |   VR   | DCI |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|  0 |     0 |     0 |                                                                        |                                          |        |        |        |     |
+| 13 |     0 |     0 |                                                                        |                                          |        |        |        |     |
+| 34 |    50 |     3 | LVCMOS33(3)                                                            |                                          |        |  +3.30 |    YES |     |
+| 35 |    50 |     8 | LVCMOS33(8)                                                            |                                          |        |  +3.30 |    YES |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|    |   100 |    11 |                                                                        |                                          |        |        |        |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+
+IO Placement:
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| BankId |             Terminal | Standard        | Site                 | Pin                  | Attributes           |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| 34     | clk                  | LVCMOS33        | IOB_X0Y24            | N18                  |                      |
+|        | led[0]               | LVCMOS33        | IOB_X0Y34            | W14                  |                      |
+|        | led[1]               | LVCMOS33        | IOB_X0Y41            | W13                  |                      |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| 35     | divisor[0]           | LVCMOS33        | IOB_X0Y89            | E19                  |                      |
+|        | divisor[1]           | LVCMOS33        | IOB_X0Y69            | F20                  |                      |
+|        | rst                  | LVCMOS33        | IOB_X0Y76            | K17                  |                      |
+|        | select[0]            | LVCMOS33        | IOB_X0Y95            | A20                  |                      |
+|        | select[1]            | LVCMOS33        | IOB_X0Y74            | H16                  |                      |
+|        | start_pulse          | LVCMOS33        | IOB_X0Y70            | F19                  |                      |
+|        | tmit_data            | LVCMOS33        | IOB_X0Y71            | H18                  |                      |
+|        | tmit_done            | LVCMOS33        | IOB_X0Y93            | D18                  |                      |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: a4fa55a1
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.319 . Memory (MB): peak = 2021.305 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: a4fa55a1
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.320 . Memory (MB): peak = 2021.305 ; gain = 0.000
+ERROR: [Place 30-99] Placer failed with error: 'IO Clock Placer failed'
+Please review all ERROR, CRITICAL WARNING, and WARNING messages during placement to understand the cause for failure.
+Ending Placer Task | Checksum: 186393d56
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.323 . Memory (MB): peak = 2021.305 ; gain = 0.000
+71 Infos, 2 Warnings, 0 Critical Warnings and 4 Errors encountered.
+place_design failed
+ERROR: [Common 17-69] Command failed: Placer could not place all instances
+INFO: [Common 17-206] Exiting Vivado at Sun Aug 24 20:34:30 2025...

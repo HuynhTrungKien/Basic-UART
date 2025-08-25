@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Mon Aug 25 22:32:05 2025
+# Process ID         : 25456
+# Current directory  : D:/Vivado_project/Basic_UART/Basic UART.runs/clk_wiz_0_synth_1
+# Command line       : vivado.exe -log clk_wiz_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source clk_wiz_0.tcl
+# Log file           : D:/Vivado_project/Basic_UART/Basic UART.runs/clk_wiz_0_synth_1/clk_wiz_0.vds
+# Journal file       : D:/Vivado_project/Basic_UART/Basic UART.runs/clk_wiz_0_synth_1\vivado.jou
+# Running On         : KIENHUYNH
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : AMD Ryzen 7 6800H with Radeon Graphics         
+# CPU Frequency      : 3194 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 16387 MB
+# Swap memory        : 11274 MB
+# Total Virtual      : 27662 MB
+# Available Virtual  : 10178 MB
+#-----------------------------------------------------------
+source clk_wiz_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 497.793 ; gain = 210.422
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP clk_wiz_0, cache-ID = 662c662e25e23c12.
+INFO: [Common 17-206] Exiting Vivado at Mon Aug 25 22:32:12 2025...

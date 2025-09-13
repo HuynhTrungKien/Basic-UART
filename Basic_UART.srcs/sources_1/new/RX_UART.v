@@ -4,7 +4,7 @@
 // Engineer: 
 // 
 // Create Date: 08/22/2025 05:45:44 PM
-// Design Name: 
+// Design Name: Huynh Trung Kien
 // Module Name: RX_UART
 // Project Name: 
 // Target Devices: 

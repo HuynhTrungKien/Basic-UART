@@ -13,7 +13,7 @@ The Universal Asynchronous Receiver/Transmitter (UART) is a simple, widely used 
 ### Simulation:
 ![Simulation](https://github.com/HuynhTrungKien/Basic-UART/blob/master/Image/Simulation.png)
 ---
-##Demo
+## Demo
 
 https://www.youtube.com/watch?v=90tbMDvpPHY
 

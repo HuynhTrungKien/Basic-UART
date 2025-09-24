@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module Baud_Gen_TX(input clk_sys, rst, output reg baud_clk);
+module Baud_Gen(input clk_sys, rst, output reg baud_clk);
 //Baud-rate generator
 wire [7:0] baud_reg;
 reg [7:0]counter = 0;

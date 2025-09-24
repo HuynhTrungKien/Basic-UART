@@ -13,6 +13,6 @@ The Universal Asynchronous Receiver/Transmitter (UART) is a simple, widely used 
 ### Simulation:
 ![Simulation](https://github.com/HuynhTrungKien/Basic-UART/blob/master/Image/Simulation.png)
 # Reference:
-https://www.sciencedirect.com/science/article/abs/pii/S004579060400014X
+[https://www.sciencedirect.com/science/article/abs/pii/S004579060400014X](https://d1wqtxts1xzle7.cloudfront.net/74700046/S0045-7906_2804_2900014-X20211115-11235-1ad609r-libre.pdf?1637034933=&response-content-disposition=inline%3B+filename%3DDesign_of_a_micro_UART_for_SoC_applicati.pdf&Expires=1758695812&Signature=EdPimVyJuKKtQ2A1stvL~Qr0d0afPOnOC67iq3WemBkPq7Z6f9W3znW66DNP4EQud5aCUhpKAQONYLUX63WgoHqKzcf9RPfSdinMNEhIrIwK0urV3AO~WbD4yrpEtznfXiV8zhrQCWPhCEtsDZVlXqR4iK98DdTgGi1RFh9Ru1fDEpjp5vVVg-eRj9Cq6dvjpXh2C4q5ayFFNah9rmB4UFgJLsN8menPZl97OYR~qARz8Gz6btdwh7J~GW79MmEz1Cqxs6ZZnbSNK2JPzAB5gi-vji~w6sudIhc-72MXoNm2NdTFVNHuIvipLrOhA640QYJNqT2LiPECqWL~OwVuKw__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA)
 
 https://github.com/MuhammadMajiid/UART

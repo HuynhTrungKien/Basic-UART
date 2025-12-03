@@ -28,7 +28,7 @@ module Parity(
   output reg         parity_bit 
 );
 
-localparam ODD        = 2'b01,
+  localparam [1:0] ODD        = 2'b01,
            EVEN       = 2'b10;
 
 always @(*)

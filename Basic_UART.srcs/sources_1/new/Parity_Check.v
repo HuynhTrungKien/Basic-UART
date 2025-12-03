@@ -30,12 +30,15 @@ module Parity_Check(
 
 reg error_parity;
     localparam [1:0] ODD        = 2'b01,
-           EVEN       = 2'b10;
+                     EVEN       = 2'b10,
+                     OUT1       = 2'b00,
+                     OUT2       = 2'b11;
 always @(*) 
 begin
   case (parity_type)
     ODD:     error_parity = (^raw_data)? 1'b0 : 1'b1;
     EVEN:    error_parity = (^raw_data)? 1'b1 : 1'b0;
+    OUT1,OUT2:	 error_parity = 1'b1;
     default: error_parity = 1'b1;
   endcase
 end

@@ -15,7 +15,7 @@ The Universal Asynchronous Receiver/Transmitter (UART) is a simple, widely used 
 ---
 <img width="1721" height="491" alt="image" src="https://github.com/user-attachments/assets/e93a460d-1c8a-4069-bf4e-c4ffd8faa645" />
 <img width="1280" height="415" alt="image" src="https://github.com/user-attachments/assets/be646361-5d9e-4066-accf-0196d7f46031" />
-I used UVM to check my module whether it work perfectly or not, two of pictures above show the logs that simulation print out.
+I used UVM to check my module whether it work perfectly or not, two of pictures above show the logs that simulation printed.
 
 ## Demo
 
